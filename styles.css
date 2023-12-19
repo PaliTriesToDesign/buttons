@@ -6,9 +6,21 @@
 
 body {
     display: flex;
+    flex-flow: column;
     justify-content: center;
+    gap: 2rem;
     align-items: center;
     min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+section {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
 }
 
 .magneto {
@@ -19,4 +31,29 @@ body {
     background-color: #101010;
     color: white;
     cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.magneto:hover {
+    background-color: tomato;
+    color: #101010;
+    font-weight: bold;
+}
+
+#debugger {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: fit-content;
+    height: fit-content;
+    background-color: #101010;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    padding: 1rem;
+    border-radius: 0 1rem 0 0;
 }
