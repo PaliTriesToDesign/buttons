@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.magneto {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: none;
+    background-color: #101010;
+    color: white;
+    cursor: pointer;
+}
